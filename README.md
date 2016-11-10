@@ -1,6 +1,10 @@
 # Lenguaje_de_marcas
+
 **Trabajo Lunar Lander**
-**Cliente(Marc Hernandez)**
+
+**Cliente (Marc Hernandez)**
+
+**Programador (Jamal El Boutaibi)**
 
 *Los siguientes cambios realizados en el proyecto:*
 

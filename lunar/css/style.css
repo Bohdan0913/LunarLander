@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color: #000000;
+
+
+}
+
+#fondo{
+	width: 960px; height: 600px;
+	background-image:url("../img/iconofondo.png");
+	background-repeat: repeat;
+	margin: auto;
+		
+} 
+#izquierda{
+	float:left; width:300px; height:500px; padding-top: 10px;
+	
+}
+#nave { 
+     width:300px; height:500px; float:left;
+   
+
+}
+
+#derecha{
+	float:right; width:300px; height:500px;
+
+
+	
+}
+#img_luna{
+	width: 100%;
+}
+#luna{
+	
+	width:960px; height:235px;
+
+}
+
+#contenedor{	width: 960px; height: 500px;
+
+}
+
+
+#pause{
+	width: 60px;height: 60px; 
+}
+
+#img_pause{
+	width: 60px;height: 60px; 
+}
+
+#reinicio{
+	width: 60px;height: 60px; 
+}
+#img_reinicio{
+	width: 60px;height: 60px; 
+}
+
+#opciones{
+	width: 60px;height: 60px; 
+}
+
+#img_opciones{
+	width: 60px;height: 60px; 
+}
+#gasolina{
+	width: 60px;height: 60px;float: right;margin-top: 100%;
+}
+#velocidad{
+	width: 60px;height: 60px;float:right;margin-top: 100%;
+}
+#altura{
+	width: 60px;height: 60px;float:right;margin-top:100%;
+}
+#img_nave{
+	width: 150px;height: 200px; margin: auto;
+}
+
+#menu{	float: right; margin-top:20px;
+
+}
+#img_play{
+	margin-top: 90%;
+}
+

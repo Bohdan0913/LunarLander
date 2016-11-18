@@ -14,7 +14,9 @@
 
 **3** Se le ha creado una entrada de créditos, la página de créditos se ha quedado únicamente con el fondo, la luna y la opción de reiniciar. Se le ha añadido los datos del productor, nombre de la empresa que lo realiza, nombre del patrocinador y año realizado.
 
-**4** 
+**4** He creado una opción sobre "acerca de...", para informar al usuario quienes han colcaborado en la producción del videojuego.
+
+**5** Se ha cambiado las opciones de gasolina, altura y velocidad, por imágenes en vez de textos.
 
 
 

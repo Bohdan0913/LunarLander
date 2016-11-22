@@ -13,17 +13,18 @@ body{ background-color: #000000;
 		
 } 
 #izquierda{
-	float:left; width:300px; height:500px; padding-top: 10px;
+	float:left; width:30%; height:20%; padding-top: 10px;
 	
 }
 #nave { 
-     width:300px; height:500px; float:left;
+     width:30%; height:50%; float:left;
    
 
 }
 
 #derecha{
-	float:right; width:300px; height:500px;
+	float:right; width:30%; height:50%;position: absolute;top:40%;right:20%;
+}
 
 
 	
@@ -43,7 +44,8 @@ body{ background-color: #000000;
 
 
 #pause{
-	width: 60px;height: 60px; 
+	width: 60px;height: 60px; position: absolute;top:50%;left: 10;
+}
 }
 
 #img_pause{
@@ -51,14 +53,17 @@ body{ background-color: #000000;
 }
 
 #reinicio{
-	width: 60px;height: 60px; 
+	width: 60px;height: 60px; position: absolute;top:30%;left:30;
+}
 }
 #img_reinicio{
 	width: 60px;height: 60px; 
 }
+}
 
 #opciones{
-	width: 60px;height: 60px; 
+	width: 60px;height: 60px; position: absolute;top:10%;left:20;
+}
 }
 
 #img_opciones{
@@ -83,4 +88,6 @@ body{ background-color: #000000;
 #img_play{
 	margin-top: 90%;
 }
-
+#energia{
+	float:right; width:60px; height:450px;position: absolute;bottom:50%;right:0%;
+}

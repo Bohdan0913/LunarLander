@@ -1,3 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color: #000000;
+
+
+}
+
 #fondo{
 	width: 960px; height: 600px;
 	background-image:url("../img/iconofondo.png");
@@ -6,17 +13,18 @@
 		
 } 
 #izquierda{
-	float:left; width:300px; height:500px; padding-top: 10px;
+	float:left; width:30%; height:20%; padding-top: 10px;
 	
 }
 #nave { 
-     width:300px; height:500px; float:left;
+     width:30%; height:50%; float:left;
    
 
 }
 
 #derecha{
-	float:right; width:300px; height:500px; 
+	float:right; width:30%; height:50%;position: absolute;top:40%;right:20%;
+}
 
 
 	
@@ -36,7 +44,8 @@
 
 
 #pause{
-	width: 60px;height: 60px; 
+	width: 60px;height: 60px; position: absolute;top:50%;left: 10;
+}
 }
 
 #img_pause{
@@ -44,37 +53,76 @@
 }
 
 #reinicio{
-	width: 60px;height: 60px; 
+	width: 60px;height: 60px; position: absolute;top:30%;left:30;
+}
 }
 #img_reinicio{
 	width: 60px;height: 60px; 
 }
+}
 
 #opciones{
-	width: 60px;height: 60px; 
+	width: 60px;height: 60px; position: absolute;top:10%;left:20;
+}
 }
 
 #img_opciones{
 	width: 60px;height: 60px; 
 }
 #gasolina{
-	width: 60px;height: 60px;
+	width: 60px;height: 60px;float: right;margin-top: 100%;
 }
 #velocidad{
-	width: 60px;height: 60px;
+	width: 60px;height: 60px;float:right;margin-top: 100%;
 }
 #altura{
-	width: 60px;height: 60px;
+	width: 60px;height: 60px;float:right;margin-top:100%;
 }
 #img_nave{
-	width: 100px;height: 100px; margin: auto;
+	width: 150px;height: 200px; margin: auto;
 }
 
-#menu{	float: right; margin-top: 220px;
-
+#menu{	float: right; margin-top:20px;
 
 }
 #img_play{
-	width: 500px;
- 	margin: 0 auto;
- 	position:relative;
+	margin-top: 90%;
+}
+#energia{
+	float:right; width:40px; height:450px;position: absolute;bottom:50%;right:4%;
+}
+#energia1{
+	float:right; width:40px; height:450px;position: absolute;bottom:50%;right:16%;
+}
+#energia2{
+	float:right; width:40px; height:450px;position: absolute;bottom:50%;right:28%;
+}
+h2 {
+
+position: absolute;
+
+top: 80px;
+
+left: 0;
+
+width: 100%;
+}
+
+
+
+ h2 span {
+
+color: white;
+
+font: bold 24px/45px Helvetica, Sans-Serif;
+
+letter-spacing: -1px;
+
+background: rgb(0, 0, 0);
+
+background: rgba(0, 0, 0, 0.7);
+
+padding: 10px;
+
+margin:auto;
+}

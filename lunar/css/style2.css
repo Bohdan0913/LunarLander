@@ -61,13 +61,12 @@ body{ background-color: #000000;
 }
 }
 
-#opciones{
-	width: 60px;height: 60px; position: absolute;top:10%;left:20;
-}
+#informacion{
+	width: 160px;height: 160px; position: absolute;top:10%;left:20;
 }
 
-#img_opciones{
-	width: 60px;height: 60px; 
+#img_informacion{
+	width: 60px;height: 60px; position: absolute;top: 50%;
 }
 #gasolina{
 	width: 60px;height: 60px;float: right;margin-top: 100%;

@@ -5,8 +5,8 @@ var a = g;
 var dt = 0.016683;
 var timer=null;
 var timerFuel=null;
-var gasolina=100;
-
+var gasolina=65;
+var activa = true;
 //al cargar por completo la página...
 window.onload = function(){
 
@@ -44,7 +44,7 @@ function moverNave(){
 	document.getElementById("energiaMarco1").style.height=70-y+"%";
 	
 	//mover hasta que top sea un 70% de la pantalla
-	if (y<70){ 
+	if (y<72){ 
 		document.getElementById("nave").style.top = y+"%"; 
 	} else { 
 		stop();
@@ -60,8 +60,10 @@ function fin(){
 		}
 }
 function motorOn(){
+	if (activa == true ){
 	a=-g;
-	gasolina --;
+	if (timerFuel==null)
+	timerFuel=setInterval(function(){ actualizarGasolina(); }, 100);
 	document.getElementById("naveSimple").style.display="none";
 
 	document.getElementById("naveFuego").style.display="block";
@@ -72,26 +74,34 @@ function motorOn(){
 		document.getElementById("energiaMarco3").style.height= 0 +"%";
 }
 }
+}
 function motorOff(){
 	a=g;
-	
+	clearInterval(timerFuel);
+	timerFuel=null;
 	document.getElementById("naveSimple").style.display="block";
 	document.getElementById("naveFuego").style.display="none";
 }
 function actualizarGasolina(){
 	//Aquí hay que cambiar el valor del marcador de Fuel...
 	gasolina-=1;
-	document.getElementById("energiaMarco3").style.height=100+gasolina + "%";	
+	document.getElementById("energiaMarco3").style.height=gasolina + "%";
+	if (gasolina <= 0){
+		motorOff();}	
 }
 function pausar(){
 	stop();
+	motorOff();
+	activa = false;
 	document.getElementById("naveSimple").style.display="block";
+	document.getElementById("naveFuego").style.display="none";
 	document.getElementById("pause").style.display="none";
 	document.getElementById("play").style.display="block";
 
 }
 function reanudar(){
 	start();
+	activa = true;
 	document.getElementById("play").style.display="none";
 	document.getElementById("pause").style.display="block";
 }

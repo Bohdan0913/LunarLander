@@ -212,12 +212,11 @@ body {
 	text-align: center;
 }
 #acercaMenu{
-	margin:1%;
+	margin:2%;
 	position: fixed;
 	border-radius: 20px;
-	width: 80%;
-	left: 10%;
-	top: 10%;
+	height: 90%;
+	width: 90%;
 	background: gray;
 	padding: 1%;
 	z-index: 6;
@@ -312,5 +311,11 @@ body {
 	margin-top: 30%;
 	font-size: 35px;
 	color: yellow;
+	border:10px;
+	border-color: black;
+	border-width: 10px;
+	border-style: solid;
+	font-family: "Arial";
+	
 
 }

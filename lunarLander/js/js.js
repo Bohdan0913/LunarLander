@@ -1,4 +1,4 @@
-var y = 10; // altura inicial y0=10%, debe leerse al iniciar si queremos que tenga alturas diferentes dependiendo del dispositivo
+var y = 5; // altura inicial y0=10%, debe leerse al iniciar si queremos que tenga alturas diferentes dependiendo del dispositivo
 var v = 0;
 var g = 1.622;
 var a = g;
@@ -131,7 +131,7 @@ function ocultarAcerca() {
 function reiniciarJuego(){
 	stop();
 	document.getElementById("play").style.display="none";
-	y = 10; 
+	y = 5; 
 	v = 0;
 	g = 1.622;
 	a = g;

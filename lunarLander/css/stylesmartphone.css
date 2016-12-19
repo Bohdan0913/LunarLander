@@ -39,6 +39,13 @@ body {
 	margin: auto;
 	
 }
+#naveRota{
+	height:100%;
+	width: 38%;
+	display: none;
+	margin: auto;
+	
+}
 #naveGif{
 	height:100%;
 	width: 38%;
@@ -316,6 +323,6 @@ body {
 	border-width: 10px;
 	border-style: solid;
 	font-family: "Arial";
-	
+
 
 }

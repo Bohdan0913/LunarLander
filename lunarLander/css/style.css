@@ -39,6 +39,13 @@ body {
 	margin: auto;
 	
 }
+#naveRota{
+	height: 40%;
+	width: 10%;
+	display: none;
+	margin: auto;
+	
+}
 #altura{
 	width:5%;
 	position: fixed;

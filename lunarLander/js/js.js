@@ -141,6 +141,7 @@ function reiniciarJuego(){
 	var timerFuel=null;
 	clearInterval(timer);
 	start();
+	
 	activa= true;
 	document.getElementById("gameOver").style.display="none";
 	document.getElementById("winner").style.display="none";
@@ -148,6 +149,7 @@ function reiniciarJuego(){
 	document.getElementById("pause").style.display="block";
 	document.getElementById("naveRota.gif").style.display="none";
 	document.getElementById("naveSimple").src="img/naveSimple.png";
+
 
 
 

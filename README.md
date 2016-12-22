@@ -33,7 +33,7 @@ dos requisitos, la nave explotará contra la luna.
 
 **2.** No habrá opción de propulsor(en imágen),será toda la pantalla en si, se hará en javascript más adelante cuando el cliente dé el visto bueno al proyecto.
 
-**3** Se le ha creado una entrada de créditos. Se le ha añadido los datos del productor, nombres de los clientes y nombre del patrocinador.
+**3** Se le ha creado una entrada de créditos. Se le han añadido los datos del productor, nombres de los clientes y nombre del patrocinador.
 
 **4** He creado una opción sobre las instrucciones de juego.
 

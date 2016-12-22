@@ -28,7 +28,6 @@ dos requisitos, la nave explotará contra la luna.
 ## Cambios realizados a gusto del programador sobre el proyecto del cliente
 
 
-**Los siguientes cambios realizados en el proyecto:**
 
 **1.** Intercambio de imagen "play" por un "pause" en la página principal, el cambio consiste en que cuando el usuario elija la opción "pause", se añada una imagen "play" centrada en la pantalla y así poder reanudar el juego con la función "play".
 
@@ -46,7 +45,15 @@ dos requisitos, la nave explotará contra la luna.
 
 **8** Se ha creado la posibilidad de elegir la dificultad del juego.
 
-**9** Se han realizados 2 hojas CSS, una para versión escritorio y otra para versión móvil.
+**9** Se han realizados 2 hojas *CSS*, una para versión escritorio y otra para versión móvil.
+
+**10** En la versión móvil se han quitado los iconos permanentes de "Acerca de" y "Pause", únicamente se ha dejado el botón de "opciones", desde el botón de "opciones" se podrá acceder a todas las funciones que te permite hacer el juego.
+
+## Problemas surgidos en la realización del juego
+
++ Crear la función en *Javascript* de reiniciar el juego, la dificultad fue en que si utilizaba la estrategia de actualizar la página, los intentos no se me guardaban.
+
+
 
 
 

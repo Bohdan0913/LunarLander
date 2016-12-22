@@ -7,6 +7,7 @@ var timer=null;
 var timerFuel=null;
 var gasolina=65;
 var activa = true;
+var intentos = 0;
 //al cargar por completo la página...
 window.onload = function(){
 
@@ -39,7 +40,15 @@ function stop(){
 
 function moverNave(){
 	v +=a*dt;
-	document.getElementById("energiaMarco2").style.height=v+"%";
+	document.getElementById("energiaMarco2").style.height=(v*5)+"%";
+	if (v <= 5){
+		document.getElementById("energiaMarco2").style.background = "darkgreen";
+		
+	} else {
+		document.getElementById("energiaMarco2").style.background = "red";
+		
+	}
+	//Altura
 	y +=v*dt;
 	document.getElementById("energiaMarco1").style.height=70-y+"%";
 	
@@ -87,6 +96,14 @@ function actualizarGasolina(){
 	//Aquí hay que cambiar el valor del marcador de Fuel...
 	gasolina-=1;
 	document.getElementById("energiaMarco3").style.height=gasolina + "%";
+	if (gasolina > 32.5 ){
+		document.getElementById("energiaMarco3").style.background = "darkgreen";
+		
+	} else {
+		document.getElementById("energiaMarco3").style.background = "red";
+		
+	}
+
 	if (gasolina <= 0){
 		motorOff();}	
 }
@@ -141,18 +158,42 @@ function reiniciarJuego(){
 	var timerFuel=null;
 	clearInterval(timer);
 	start();
+	intentos ++;
 	
 	activa= true;
 	document.getElementById("gameOver").style.display="none";
 	document.getElementById("winner").style.display="none";
 	document.getElementById("energiaMarco3").style.height=gasolina + "%";
 	document.getElementById("pause").style.display="block";
-	document.getElementById("naveRota.gif").style.display="none";
-	document.getElementById("naveSimple").src="img/naveSimple.png";
+	document.getElementById("naveRota").style.display="none";
+	document.getElementById("naveSimple").src="img/nave-min.png";
+	document.getElementById("intentos1").innerHTML=intentos;
 
 
 
 
 
 
+}
+
+function nivelDificil(){
+
+	reiniciarJuego();
+	gasolina=30;
+	ocultarMenu();
+	pausar();          
+}
+function nivelMedia(){
+
+	reiniciarJuego();
+	gasolina=45;
+	ocultarMenu(); 
+	pausar();         
+}
+function nivelFacil(){
+
+	reiniciarJuego();
+	gasolina=65;
+	ocultarMenu();
+	pausar();          
 }

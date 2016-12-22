@@ -35,7 +35,7 @@ body {
 #naveFuego{
 	height:100%;
 	width: 38%;
-	display: block;
+	display: none;
 	margin: auto;
 	
 }
@@ -73,7 +73,7 @@ body {
 
 }
 #energiaMarco1{
-	background: green;
+	background: darkgreen;
 	border:37%;
 	border-style: solid;
 	border-color: yellow;
@@ -86,7 +86,7 @@ body {
 }
 
 #energiaMarco2{
-	background: green;
+	background: darkgreen;
 	border:  37%;
 	border-style: solid;
 	border-color: yellow;
@@ -99,7 +99,7 @@ body {
 }
 
 #energiaMarco3{
-	background-color: green;
+	background-color: darkgreen;
 	border: 37%;
 	border-style: solid;
 	border-color: yellow;
@@ -206,7 +206,7 @@ body {
 	background: green;
 }
 #menu h1{
-	
+	background: black;
 	color: yellow;
 	font-size: 30px;
 	text-align: center;
@@ -234,6 +234,7 @@ body {
 	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
+	background: black;
 }
 #acercaMenu p{
 
@@ -256,18 +257,9 @@ body {
 	display: none;
 }
 
-#gameOver h1{
-	color: yellow;
-	font-size: 40px;
-	text-align: center;
-	font-weight: bold;
-}
-#gameOver h3{
 
-	color: rgb(0,0,0);
-	font-size: 17px;
-	font-weight: bold;
-	text-align: center;
+#gameover{
+	width: 100%;
 }
 #winner{
 	margin:1%;
@@ -287,6 +279,7 @@ body {
 	font-size: 40px;
 	text-align: center;
 	font-weight: bold;
+	text-shadow: 0px 0px 10px yellow;
 }
 #winner p{
 
@@ -294,6 +287,7 @@ body {
 	font-size: 17px;
 	font-weight: bold;
 	text-align: center;
+	text-shadow: 0px 0px 10px yellow;
 }
 
 #reiniciar{
@@ -301,6 +295,9 @@ body {
 	bottom: 20%;
 	position: fixed;
 	width: 25%;
+}
+#reiniciar1{
+	width: 40%;
 }
 #menuMovil{
 	margin:2%;
@@ -323,6 +320,31 @@ body {
 	border-width: 10px;
 	border-style: solid;
 	font-family: "Arial";
+	background: black;
 
+
+
+}
+#menuMovil a{
+	text-decoration: none;
+}
+#facil{
+	padding: 10px;
+	font-size: 120%;
+	left: 5%;
+	position: relative;
+}
+#media{
+	padding: 10px;
+	font-size: 120%;
+	left: 12%;
+	position: relative;
+
+}
+#dificil{
+	padding: 10px;
+	font-size: 120%;
+	left: 25%;
+	position: relative;
 
 }

@@ -79,6 +79,10 @@
 		<p>En caso de aterrizar a una velocidad elevada la nave explotará.</p>
 		<p>Presiona la tecla "SPACE" para dar energía a la nave.</p>
 		<p>En caso de jugar con el móvil, presiona sobre la pantalla.</p>
+		<h2>Ajustes</h2>
+		<a href="#" onclick="nivelFacil();"><button id="facil">Fácil</button></a>
+		<a href="#" onclick="nivelMedia();"><button id="media">Media</button></a>
+		<a href="#" onclick="nivelDificil();"><button id="dificil">Difícil</button></a>
 	</div>
 	<div id="acercaMenu">
 		<figure>
@@ -95,26 +99,24 @@
 		<p>Mariano Palliser</p>
 		<h3>¿Donde se realizó?</h3>
 		<p>En el módulo de Lengua de Marcas</p>
-		<h3>Patrocinador...</h3>
+		<h3>Patrocinado por...</h3>
 		<p>IES BORJA MOLL</p>
 	</div>
 	<div id="gameOver">
-		<h1>
-		GAME OVER
-		</h1>
+		
 		<figure>
-			<img id="caritas" src="img/caritasT.gif" alt="caritas">
+			<img id="gameover" src="img/gameover.png" alt="gameover">
 		</figure>
-		<h3>
-		PLAY AGAIN
-		</h3>
+		<div id="intentos">
+			<p>Intentos realizados:</p><span id="intentos1">0</span>
+			</div>
 		<figure>
-			<a href="#" onclick="reiniciarJuego();"><img id="reiniciar1" src="img/reiniciar-min.png" alt="reiniciar"></a>
+			<a href="#" onclick="reiniciarJuego();"><img id="reiniciar1" src="img/playagain.png" alt="reiniciar"></a>
 		</figure>
 	</div>
 	<div id="winner">
 		<h1>
-			¡¡¡¡EXCELENTE!!!!
+			¡¡EXCELENTE!!
 		</h1>
 		<figure>
 			<img id="trofeo" src="img/trofeo.gif" alt="trofeo">
@@ -126,7 +128,7 @@
 			Estamos ante uno de los mejores pilotos de la historia de la NASA.
 		</p>
 		<figure>
-			<a href="#" onclick="reiniciarJuego();"><img id="reiniciar" src="img/reiniciar-min.png" alt="reiniciar"></a>
+			<a href="#" onclick="reiniciarJuego();"><img id="reiniciar" src="img/playagain.png" alt="reiniciar"></a>
 		</figure>
 	</div>
 

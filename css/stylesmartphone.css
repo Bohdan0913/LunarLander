@@ -212,6 +212,13 @@ body {
 	text-align: center;
 	font-weight: bold;
 }
+#menu h2{
+	background: black;
+	color: yellow;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
 #menu p{
 	color: rgb(0,0,0);
 	font-size: 20px;
@@ -273,7 +280,7 @@ body {
 	border-radius: 20px;
 	width: 80%;
 	left: 10%;
-	top: 10%;
+	top: 0%;
 	background: gray;
 	padding: 1%;
 	z-index: 4;
@@ -299,7 +306,7 @@ body {
 #reiniciar{
 	right: 7%;
 	bottom: 20%;
-	position: fixed;
+	position: absolute;
 	width: 25%;
 }
 #reiniciar1{
@@ -337,20 +344,20 @@ body {
 #facil{
 	padding: 10px;
 	font-size: 120%;
-	left: 5%;
+	left: 7%;
 	position: relative;
 }
 #media{
 	padding: 10px;
 	font-size: 120%;
-	left: 12%;
+	left: 17%;
 	position: relative;
 
 }
 #dificil{
 	padding: 10px;
 	font-size: 120%;
-	left: 25%;
+	left: 27%;
 	position: relative;
 
 }

@@ -23,7 +23,7 @@ dos requisitos, la nave explotará contra la luna.
 
 **Motor de juego con:**
 
-+ *Javascript* ( actualmente todavía no está diseñado el motor de juego )
++ *Javascript* 
 
 ## Cambios realizados a gusto del programador sobre el proyecto del cliente
 
@@ -34,14 +34,23 @@ dos requisitos, la nave explotará contra la luna.
 
 **2.** No habrá opción de propulsor(en imágen),será toda la pantalla en si, se hará en javascript más adelante cuando el cliente dé el visto bueno al proyecto.
 
-**3** Se le ha creado una entrada de créditos, la página de créditos se ha quedado únicamente con el fondo, la luna y la opción de reiniciar. Se le ha añadido los datos del productor, nombres de los clientes, nombre del patrocinador y año realizado.
+**3** Se le ha creado una entrada de créditos. Se le ha añadido los datos del productor, nombres de los clientes y nombre del patrocinador.
 
 **4** He creado una opción sobre las instrucciones de juego.
 
-**5** Se ha cambiado el texto en las opciones de gasolina, altura y velocidad, por imágenes de barras verdes.
+**5** Se ha cambiado el texto en las opciones de gasolina, altura y velocidad, por imágenes de barras. Las barras se muestran de color verde o rojo, según si tiene suficiente gasolina o poca respectivamente.
 
-**6** En la opción de jugar en la pantalla del ordenador, se han recortado los márgenes laterales para central la visión del usuario
-en la nave.
+**6** Se le ha añadido la opción de contar los intentos realizados si el usuario pierde.  
+
+**7** Se han creado dos ventanas nuevas, una de "GAME OVER" y otra de "WINNER". 
+
+**8** Se ha creado la posibilidad de elegir la dificultad del juego.
+
+**9** Se han realizados 2 hojas CSS, una para versión escritorio y otra para versión móvil.
+
+
+
+
 
 
 

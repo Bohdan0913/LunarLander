@@ -53,7 +53,7 @@ dos requisitos, la nave explotará contra la luna.
 
 + Crear la función en *Javascript* de reiniciar el juego, la dificultad fue en que si utilizaba la estrategia de actualizar la página, los intentos no se me guardaban.
 
-
+[Pruebalo aquí](https://rawgit.com/jemys89/LunarLander/master/index.html#)
 
 
 
